@@ -3,7 +3,7 @@
 <html lang="en" dir="ltr">
    <head>
       <meta charset="utf-8">
-      <title>Login Page</title>
+      <title>Teacher</title>
       <link rel="stylesheet" href="/css/teacher.css">
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
    </head>
@@ -17,7 +17,7 @@
         </div>
          <div class="user-wrapper">
             <div>
-                <h3>Bravo CisSam</h3>
+                <h4>Bravo CisSam</h4>
                 <small>Teacher</small>
             </div>
         </div>
@@ -75,7 +75,7 @@
         <main>
 
         <?php
-         include 'connection.php';?>
+         include 'connectdb.php';?>
 
           <div class="cards">
         
