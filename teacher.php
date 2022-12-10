@@ -6,6 +6,7 @@
       <title>Teacher</title>
       <link rel="stylesheet" href="teacher.css">
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <?php include("includes/sidebar.php"); ?>
    </head>
    <body>
    <input type="checkbox" id="nav-toggle">    
@@ -23,8 +24,8 @@
         </div>
 
         </div>
-
-        <div class="sidebar-menu">
+        
+        <!-- <div class="sidebar-menu">
             <ul class="nav">
                 <li>
                     <a href="teacher.php"><span><i class="fa fa-home" aria-hidden="true"></i></span>
@@ -60,8 +61,7 @@
 
             </ul>
         </div>
-    </div>
-
+    </div> -->
 <div class="main-content">
     <header>
             <h2>
@@ -193,5 +193,6 @@
        
     
 </div>
+
    </body>
 </html>
