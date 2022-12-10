@@ -7,6 +7,8 @@
     <title>Student</title>
     <link rel="stylesheet" href="student.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+    <script src="https://kit.fontawsome.com/a076d05399"></script>
 </head>
 
 
@@ -16,14 +18,10 @@
         <div class="sidebar-student">
 
             <div class="user-image">
-                <img src="team-socials.png" width="40px" height="40px" alt="">
+                <img src="team-socials.png" width="200px" height="100px" alt="">
+
             </div>
-            <div class="user-wrapper">
-                <div>
-                    <h4>Team Socials</h4>
-                    <small>Student</small>
-                </div>
-            </div>
+
 
         </div>
 
@@ -35,18 +33,18 @@
                 </li>
 
                 <li>
-                    <a href="studentlist.php"><span><i class="fa fa-users" aria-hidden="true"></i></span>
+                    <a href="#"><span><i class="fa fa-users" aria-hidden="true"></i></span>
                         <span>My Exams</span></a>
                 </li>
 
                 <li>
-                    <a href="createquiz.php"><span><i class="fa fa-list-alt" aria-hidden="true"></i></span>
+                    <a href="#"><span><i class="fa fa-list-alt" aria-hidden="true"></i></span>
                         <span>Show Grades</span></a>
                 </li>
 
 
                 <li>
-                    <a href=""><span><i class="fa fa-sign-out" aria-hidden="true"></i></span>
+                    <a href="login.php"><span><i class="fa fa-sign-out" aria-hidden="true"></i></span>
                         <span>Logout</span></a>
                 </li>
 
@@ -64,7 +62,18 @@
                 </label>
             </h2>
         </header>
+            <main>
+        <div class="col">
+            <div class="row">
+                <table>
+                    hello
+                </table>
+            </div>
+        </div>
+    </main>
     </div>
+
+
 </body>
 
 </html>

@@ -19,7 +19,7 @@ i{
     font-size: large;
 }
 .sidebar{
-    width: 345px;
+    width: 250px;
     position: fixed;
     left: 0;
     top: 0;
@@ -84,15 +84,14 @@ i{
        left: 70px;
 } 
   .main-content {
-    transition: margin-left 300ms;
-      margin-left: 345px;
+    margin-left: 251px;
   }
 
 .nav{
     list-style: none;
     position: relative;
     padding: 2rem;
-
+    font-weight: 900;
 }
 
 .nav li{
@@ -125,7 +124,7 @@ i{
 }
 
 .nav li:hover a{
-    color: #59C1BD;
+    color: black;
     transition: 0.3s;
 }
 
@@ -139,7 +138,7 @@ i{
 }
 
 .nav li:nth-child(2):hover ~ .active{
-    top: 25%;
+    top: 27%;
 }
 
 .nav li:nth-child(3):hover ~ .active{
@@ -154,14 +153,13 @@ i{
 header{
     display: flex;
     justify-content: space-between;
-    padding: 1rem 1.5rem;
-    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.3) ;
     position: fixed;
-    left: 345px;
-    width: calc(100% - 345px);
+    left: 251px;
+    margin-top: 0%;
+    height: calc(120% - 70rem);
+    width: calc(120% - 250px);
     top: 0;
-    z-index: 100;
-    transition: left 300ms;
+    background: black;
 } 
 
 

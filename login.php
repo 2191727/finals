@@ -13,9 +13,6 @@
             <div class="title login">
                Login Form
             </div>
-            <div class="title signup">
-               Signup Form
-            </div>
          </div>
          <div class="form-container">
             <div class="slide-controls">
@@ -33,10 +30,9 @@
                   </div>
                   <div class="field btn">
                      <div class="btn-layer"></div>
-                     <input type="submit" value="Login">
+                     <input href="student.php" type="submit" value="Login">
                   </div>
                </form>
-               <form action="#" class="signup">
             </div>
          </div>
       </div>
@@ -44,8 +40,6 @@
          const loginText = document.querySelector(".title-text .login");
          const loginForm = document.querySelector("form.login");
          const loginBtn = document.querySelector("label.login");
-         const signupBtn = document.querySelector("label.signup");
-         const signupLink = document.querySelector("form .signup-link a");
          signupBtn.onclick = (()=>{
            loginForm.style.marginLeft = "-50%";
            loginText.style.marginLeft = "-50%";
