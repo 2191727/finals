@@ -42,10 +42,6 @@
                         <span>My Exams</span></a>
                 </li>
                 <li>
-                    <a href="showgrades.php"><span><i class="fa fa-list-alt" aria-hidden="true"></i></span>
-                        <span>Show Grades</span></a>
-                </li>
-                <li>
                     <a href="logout.php"><span><i class="fa fa-sign-out" aria-hidden="true"></i></span>
                         <span>Logout</span></a>
                         

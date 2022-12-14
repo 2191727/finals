@@ -108,15 +108,11 @@ i{
 
 
 .nav li:nth-child(1):hover ~ .active{
-    top: 10%;
+    top: 20%;
 }
 
 .nav li:nth-child(2):hover ~ .active{
-    top: 33%;
-}
-
-.nav li:nth-child(3):hover ~ .active{
-    top: 57%;
+    top: 50%;
 }
 
 .header {
