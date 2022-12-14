@@ -69,7 +69,7 @@
                 $servername = 'localhost';
                 $username = 'root';
                 $password = '';
-                $database = 'finals_db';
+                $database = 'finals';
                 
                 //create connection
                 $connection = new mysqli($servername, $username, $password, $database);

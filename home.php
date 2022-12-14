@@ -18,8 +18,8 @@
 
     <div class="main-content">
         <div class="header">
-            <h1>Header</h1>
-            <p>My supercool header</p>
+            <h1>Online Examination</h1>
+            <p>By: Team Socials</p>
         </div>
         <main>
         </main>

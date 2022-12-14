@@ -98,7 +98,7 @@ i{
 }
 
 .nav li:hover a{
-    color: black;
+    color: rgb(0, 0, 0);
     transition: 0.3s;
 }
 
@@ -121,8 +121,10 @@ i{
 
 .header {
     padding: 20px;
+    width: 100%;
+    display: absolute;
     text-align: center;
-    background: #273835;
+    background: -webkit-linear-gradient(right, #27187E, #758BFD, #AEB8FE);
     color: white;
     font-size: 10px;
   }
@@ -132,3 +134,4 @@ i{
     align-items: center;
     text-align: center;
 }
+
