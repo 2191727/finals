@@ -12,14 +12,12 @@
 <body>
     <div class="wrapper">
         <div class="title-text">
-            <div class="title login">
-                Login Form
-            </div>
+        <img id="login-logo"src="Socials.png" alt="logo">
         </div>
         <div class="form-container">
             <div class="slide-controls">
                 <input type="radio" name="slide" id="login" checked>
-                <label for="login" class="slide login">Socials</label>
+                <label for="login" class="slide login">WELCOME!</label>
                 <div class="slider-tab"></div>
             </div>
             <div class="form-inner">
@@ -36,7 +34,7 @@
                     <br>
                     <div class="field btn">
                         <div class="btn-layer"></div>
-                        <input type="submit" value="login" name="login">
+                        <input type="submit" value="Log in" name="login">
                     </div>
                 </form>
             </div>
