@@ -1,7 +1,0 @@
-*import the db to myphpadmin.
-*After that open terminal tas intall this:
--django
--mysqlclient
--django-jassmin
-*Run the app by typing "python manage.py runserver" 
-*Click the link.
