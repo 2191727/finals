@@ -197,11 +197,3 @@ class StudentAccount(models.Model):
         db_table = 'student_account'
 
 
-class TeacherAccount(models.Model):
-    teacher_id = models.AutoField(primary_key=True)
-    teacher_username = models.CharField(max_length=1000)
-    teacher_password = models.CharField(max_length=1000)
-
-    class Meta:
-        managed = False
-        db_table = 'teacher_account'
